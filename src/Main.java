@@ -1,10 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        int x = 50;
-        int y = 20;
-        int s = x / y;
-        if (s > 1) {
-            System.out.println(s);
+        int ticketPrice = 13676;
+        int mile = 20;
+        int bonusMiles = ticketPrice / mile;
+        if (bonusMiles > 1) {
+            System.out.println(bonusMiles);
         } else {
             System.out.println(0);
         }
